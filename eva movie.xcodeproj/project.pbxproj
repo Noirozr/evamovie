@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1874E8ED191F2F970091F9D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874E8EC191F2F970091F9D9 /* Foundation.framework */; };
+		1874E8EF191F2F970091F9D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874E8EE191F2F970091F9D9 /* CoreGraphics.framework */; };
+		1874E8F1191F2F970091F9D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874E8F0191F2F970091F9D9 /* UIKit.framework */; };
+		1874E8F7191F2F970091F9D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1874E8F5191F2F970091F9D9 /* InfoPlist.strings */; };
+		1874E8F9191F2F970091F9D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E8F8191F2F970091F9D9 /* main.m */; };
+		1874E8FD191F2F970091F9D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E8FC191F2F970091F9D9 /* AppDelegate.m */; };
+		1874E8FF191F2F970091F9D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1874E8FE191F2F970091F9D9 /* Images.xcassets */; };
+		1874E906191F2F970091F9D9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874E905191F2F970091F9D9 /* XCTest.framework */; };
+		1874E907191F2F970091F9D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874E8EC191F2F970091F9D9 /* Foundation.framework */; };
+		1874E908191F2F970091F9D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874E8F0191F2F970091F9D9 /* UIKit.framework */; };
+		1874E910191F2F970091F9D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1874E90E191F2F970091F9D9 /* InfoPlist.strings */; };
+		1874E912191F2F970091F9D9 /* eva_movieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E911191F2F970091F9D9 /* eva_movieTests.m */; };
+		1874E91D191F33460091F9D9 /* loadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E91C191F33460091F9D9 /* loadViewController.m */; };
+		1874E920191F340D0091F9D9 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E91F191F340D0091F9D9 /* mainViewController.m */; };
+		1874E923191F34190091F9D9 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E922191F34190091F9D9 /* secondViewController.m */; };
+		1874E926191F34CD0091F9D9 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E925191F34CD0091F9D9 /* thirdViewController.m */; };
+		1874E929191F34ED0091F9D9 /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E928191F34ED0091F9D9 /* Animator.m */; };
+		1874E92E191F35DD0091F9D9 /* bgimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1874E92B191F35DD0091F9D9 /* bgimage.jpg */; };
+		1874E930191F35DD0091F9D9 /* Rebuild_of_Evangelion_1.0_Poster.png in Resources */ = {isa = PBXBuildFile; fileRef = 1874E92D191F35DD0091F9D9 /* Rebuild_of_Evangelion_1.0_Poster.png */; };
+		18E28BD61920B4C0002D217A /* Shinji_Ikari.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E28BD51920B4C0002D217A /* Shinji_Ikari.png */; };
+		18E28BD91920BBEC002D217A /* webViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E28BD81920BBEC002D217A /* webViewController.m */; };
+		18E28BE4192130E5002D217A /* Kaworu_and_Shinji_Poster.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E28BE2192130E5002D217A /* Kaworu_and_Shinji_Poster.png */; };
+		18E28BE5192130E5002D217A /* Rebuild_of_Evangelion_2.0_Poster.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E28BE3192130E5002D217A /* Rebuild_of_Evangelion_2.0_Poster.png */; };
+		18E28BE819214323002D217A /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E28BE719214323002D217A /* PulsingHaloLayer.m */; };
+		18EA791C19253F370089834A /* Eva01RenderLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA791B19253F370089834A /* Eva01RenderLight.png */; };
+		18EA7923192541480089834A /* Evangelion_Unit_00'_(Rebuild).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7922192541480089834A /* Evangelion_Unit_00'_(Rebuild).png */; };
+		18EA7925192601350089834A /* Sachiel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7924192601350089834A /* Sachiel.png */; };
+		18EA7927192603460089834A /* 5th_Angel_Render.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7926192603460089834A /* 5th_Angel_Render.png */; };
+		18EA7929192603C20089834A /* The_Sixth_Angel_(Rebuild).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7928192603C20089834A /* The_Sixth_Angel_(Rebuild).png */; };
+		18EA792C192633870089834A /* Misato_Katsuragi.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA792A192633870089834A /* Misato_Katsuragi.png */; };
+		18EA792D192633870089834A /* Rei_Ayanami.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA792B192633870089834A /* Rei_Ayanami.png */; };
+		18EA79311926916C0089834A /* Gendo_Ikari.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79301926916C0089834A /* Gendo_Ikari.png */; };
+		18EA79351926992B0089834A /* Asuka_Shikinami_Langley_Casual.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79321926992B0089834A /* Asuka_Shikinami_Langley_Casual.png */; };
+		18EA79361926992B0089834A /* Kaworu_Nagisa_(Plugsuit).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79331926992B0089834A /* Kaworu_Nagisa_(Plugsuit).png */; };
+		18EA79371926992B0089834A /* Mari_Makinami_Illustrious_Casual.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79341926992B0089834A /* Mari_Makinami_Illustrious_Casual.png */; };
+		18EA793D19269D240089834A /* Evangelion_Unit_02_(Beast_Mode).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA793919269D240089834A /* Evangelion_Unit_02_(Beast_Mode).png */; };
+		18EA793E19269D240089834A /* Evangelion_Unit-01_(Pseudo-evolved).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA793A19269D240089834A /* Evangelion_Unit-01_(Pseudo-evolved).png */; };
+		18EA793F19269D240089834A /* Evangelion_Unit-02_(Rebuild).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA793B19269D240089834A /* Evangelion_Unit-02_(Rebuild).png */; };
+		18EA794119269FF90089834A /* Third_Angel_(Rebuild).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA794019269FF90089834A /* Third_Angel_(Rebuild).png */; };
+		18EA79431926A19C0089834A /* The_Seventh_Angel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79421926A19C0089834A /* The_Seventh_Angel.png */; };
+		18EA79451926A28B0089834A /* Sahaquiel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79441926A28B0089834A /* Sahaquiel.png */; };
+		18EA79471926A3A70089834A /* Evangelion_Unit_03_(Bardiel).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79461926A3A70089834A /* Evangelion_Unit_03_(Bardiel).png */; };
+		18EA79491926A3FE0089834A /* ZeruelFirstForm.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA79481926A3FE0089834A /* ZeruelFirstForm.png */; };
+		18EA794E192734620089834A /* 'Rei'_(Plugsuit_09).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA794A192734620089834A /* 'Rei'_(Plugsuit_09).png */; };
+		18EA794F192734620089834A /* Asuka_(Plugsuit_02_in_3.0).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA794B192734620089834A /* Asuka_(Plugsuit_02_in_3.0).png */; };
+		18EA7950192734620089834A /* Kaworu_Nagisa_(Mark.06_Plugsuit).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA794C192734620089834A /* Kaworu_Nagisa_(Mark.06_Plugsuit).png */; };
+		18EA7951192734620089834A /* Shinji_(Plugsuit_13).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA794D192734620089834A /* Shinji_(Plugsuit_13).png */; };
+		18EA7955192737A70089834A /* Mari_(Plugsuit_08).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7954192737A70089834A /* Mari_(Plugsuit_08).png */; };
+		18EA7957192738390089834A /* Twelfth_Angel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7956192738390089834A /* Twelfth_Angel.png */; };
+		18EA795C192739620089834A /* Evangelion_13_Artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7958192739620089834A /* Evangelion_13_Artwork.png */; };
+		18EA795D192739620089834A /* Evangelion_Mark.09_(Adams'_Vessel).png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7959192739620089834A /* Evangelion_Mark.09_(Adams'_Vessel).png */; };
+		18EA795E192739620089834A /* Evangelion_Unit-02'β.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA795A192739620089834A /* Evangelion_Unit-02'β.png */; };
+		18EA795F192739620089834A /* Evangelion_Unit-02'γ_Code_777.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA795B192739620089834A /* Evangelion_Unit-02'γ_Code_777.png */; };
+		18EA7961192739CC0089834A /* Evangelion_Unit_08_Beta_artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7960192739CC0089834A /* Evangelion_Unit_08_Beta_artwork.png */; };
+		4BF2E280C192420EBB0499DC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5CE28DE2AC4000853D6064 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1874E909191F2F970091F9D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1874E8E1191F2F970091F9D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1874E8E8191F2F970091F9D9;
+			remoteInfo = "eva movie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1874E8E9191F2F970091F9D9 /* eva movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "eva movie.app"; path = evamovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874E8EC191F2F970091F9D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1874E8EE191F2F970091F9D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1874E8F0191F2F970091F9D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1874E8F4191F2F970091F9D9 /* eva movie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eva movie-Info.plist"; sourceTree = "<group>"; };
+		1874E8F6191F2F970091F9D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1874E8F8191F2F970091F9D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1874E8FA191F2F970091F9D9 /* eva movie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eva movie-Prefix.pch"; sourceTree = "<group>"; };
+		1874E8FB191F2F970091F9D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1874E8FC191F2F970091F9D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1874E8FE191F2F970091F9D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1874E904191F2F970091F9D9 /* eva movieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eva movieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874E905191F2F970091F9D9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1874E90D191F2F970091F9D9 /* eva movieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eva movieTests-Info.plist"; sourceTree = "<group>"; };
+		1874E90F191F2F970091F9D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1874E911191F2F970091F9D9 /* eva_movieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eva_movieTests.m; sourceTree = "<group>"; };
+		1874E91B191F33460091F9D9 /* loadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadViewController.h; sourceTree = "<group>"; };
+		1874E91C191F33460091F9D9 /* loadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadViewController.m; sourceTree = "<group>"; };
+		1874E91E191F340D0091F9D9 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		1874E91F191F340D0091F9D9 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		1874E921191F34190091F9D9 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		1874E922191F34190091F9D9 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		1874E924191F34CD0091F9D9 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdViewController.h; sourceTree = "<group>"; };
+		1874E925191F34CD0091F9D9 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdViewController.m; sourceTree = "<group>"; };
+		1874E927191F34ED0091F9D9 /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		1874E928191F34ED0091F9D9 /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		1874E92B191F35DD0091F9D9 /* bgimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bgimage.jpg; path = images/bgimage.jpg; sourceTree = "<group>"; };
+		1874E92D191F35DD0091F9D9 /* Rebuild_of_Evangelion_1.0_Poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rebuild_of_Evangelion_1.0_Poster.png; path = images/Rebuild_of_Evangelion_1.0_Poster.png; sourceTree = "<group>"; };
+		18E28BD51920B4C0002D217A /* Shinji_Ikari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shinji_Ikari.png; path = images/Shinji_Ikari.png; sourceTree = "<group>"; };
+		18E28BD71920BBEC002D217A /* webViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewController.h; sourceTree = "<group>"; };
+		18E28BD81920BBEC002D217A /* webViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewController.m; sourceTree = "<group>"; };
+		18E28BE2192130E5002D217A /* Kaworu_and_Shinji_Poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kaworu_and_Shinji_Poster.png; path = images/Kaworu_and_Shinji_Poster.png; sourceTree = "<group>"; };
+		18E28BE3192130E5002D217A /* Rebuild_of_Evangelion_2.0_Poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rebuild_of_Evangelion_2.0_Poster.png; path = images/Rebuild_of_Evangelion_2.0_Poster.png; sourceTree = "<group>"; };
+		18E28BE619214323002D217A /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		18E28BE719214323002D217A /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
+		18EA791B19253F370089834A /* Eva01RenderLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Eva01RenderLight.png; path = images/Eva01RenderLight.png; sourceTree = "<group>"; };
+		18EA7922192541480089834A /* Evangelion_Unit_00'_(Rebuild).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Unit_00'_(Rebuild).png"; path = "images/Evangelion_Unit_00'_(Rebuild).png"; sourceTree = "<group>"; };
+		18EA7924192601350089834A /* Sachiel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sachiel.png; path = images/Sachiel.png; sourceTree = "<group>"; };
+		18EA7926192603460089834A /* 5th_Angel_Render.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5th_Angel_Render.png; path = images/5th_Angel_Render.png; sourceTree = "<group>"; };
+		18EA7928192603C20089834A /* The_Sixth_Angel_(Rebuild).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "The_Sixth_Angel_(Rebuild).png"; path = "images/The_Sixth_Angel_(Rebuild).png"; sourceTree = "<group>"; };
+		18EA792A192633870089834A /* Misato_Katsuragi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Misato_Katsuragi.png; path = images/Misato_Katsuragi.png; sourceTree = "<group>"; };
+		18EA792B192633870089834A /* Rei_Ayanami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rei_Ayanami.png; path = images/Rei_Ayanami.png; sourceTree = "<group>"; };
+		18EA79301926916C0089834A /* Gendo_Ikari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gendo_Ikari.png; path = images/Gendo_Ikari.png; sourceTree = "<group>"; };
+		18EA79321926992B0089834A /* Asuka_Shikinami_Langley_Casual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asuka_Shikinami_Langley_Casual.png; path = images/Asuka_Shikinami_Langley_Casual.png; sourceTree = "<group>"; };
+		18EA79331926992B0089834A /* Kaworu_Nagisa_(Plugsuit).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kaworu_Nagisa_(Plugsuit).png"; path = "images/Kaworu_Nagisa_(Plugsuit).png"; sourceTree = "<group>"; };
+		18EA79341926992B0089834A /* Mari_Makinami_Illustrious_Casual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mari_Makinami_Illustrious_Casual.png; path = images/Mari_Makinami_Illustrious_Casual.png; sourceTree = "<group>"; };
+		18EA793919269D240089834A /* Evangelion_Unit_02_(Beast_Mode).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Unit_02_(Beast_Mode).png"; path = "images/Evangelion_Unit_02_(Beast_Mode).png"; sourceTree = "<group>"; };
+		18EA793A19269D240089834A /* Evangelion_Unit-01_(Pseudo-evolved).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Unit-01_(Pseudo-evolved).png"; path = "images/Evangelion_Unit-01_(Pseudo-evolved).png"; sourceTree = "<group>"; };
+		18EA793B19269D240089834A /* Evangelion_Unit-02_(Rebuild).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Unit-02_(Rebuild).png"; path = "images/Evangelion_Unit-02_(Rebuild).png"; sourceTree = "<group>"; };
+		18EA794019269FF90089834A /* Third_Angel_(Rebuild).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Third_Angel_(Rebuild).png"; path = "images/Third_Angel_(Rebuild).png"; sourceTree = "<group>"; };
+		18EA79421926A19C0089834A /* The_Seventh_Angel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = The_Seventh_Angel.png; path = images/The_Seventh_Angel.png; sourceTree = "<group>"; };
+		18EA79441926A28B0089834A /* Sahaquiel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sahaquiel.png; path = images/Sahaquiel.png; sourceTree = "<group>"; };
+		18EA79461926A3A70089834A /* Evangelion_Unit_03_(Bardiel).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Unit_03_(Bardiel).png"; path = "images/Evangelion_Unit_03_(Bardiel).png"; sourceTree = "<group>"; };
+		18EA79481926A3FE0089834A /* ZeruelFirstForm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ZeruelFirstForm.png; path = images/ZeruelFirstForm.png; sourceTree = "<group>"; };
+		18EA794A192734620089834A /* 'Rei'_(Plugsuit_09).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "'Rei'_(Plugsuit_09).png"; path = "images/'Rei'_(Plugsuit_09).png"; sourceTree = "<group>"; };
+		18EA794B192734620089834A /* Asuka_(Plugsuit_02_in_3.0).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Asuka_(Plugsuit_02_in_3.0).png"; path = "images/Asuka_(Plugsuit_02_in_3.0).png"; sourceTree = "<group>"; };
+		18EA794C192734620089834A /* Kaworu_Nagisa_(Mark.06_Plugsuit).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kaworu_Nagisa_(Mark.06_Plugsuit).png"; path = "images/Kaworu_Nagisa_(Mark.06_Plugsuit).png"; sourceTree = "<group>"; };
+		18EA794D192734620089834A /* Shinji_(Plugsuit_13).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Shinji_(Plugsuit_13).png"; path = "images/Shinji_(Plugsuit_13).png"; sourceTree = "<group>"; };
+		18EA7954192737A70089834A /* Mari_(Plugsuit_08).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mari_(Plugsuit_08).png"; path = "images/Mari_(Plugsuit_08).png"; sourceTree = "<group>"; };
+		18EA7956192738390089834A /* Twelfth_Angel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twelfth_Angel.png; path = images/Twelfth_Angel.png; sourceTree = "<group>"; };
+		18EA7958192739620089834A /* Evangelion_13_Artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Evangelion_13_Artwork.png; path = images/Evangelion_13_Artwork.png; sourceTree = "<group>"; };
+		18EA7959192739620089834A /* Evangelion_Mark.09_(Adams'_Vessel).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Mark.09_(Adams'_Vessel).png"; path = "images/Evangelion_Mark.09_(Adams'_Vessel).png"; sourceTree = "<group>"; };
+		18EA795A192739620089834A /* Evangelion_Unit-02'β.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Unit-02'β.png"; path = "images/Evangelion_Unit-02'β.png"; sourceTree = "<group>"; };
+		18EA795B192739620089834A /* Evangelion_Unit-02'γ_Code_777.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Unit-02'γ_Code_777.png"; path = "images/Evangelion_Unit-02'γ_Code_777.png"; sourceTree = "<group>"; };
+		18EA7960192739CC0089834A /* Evangelion_Unit_08_Beta_artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Evangelion_Unit_08_Beta_artwork.png; path = images/Evangelion_Unit_08_Beta_artwork.png; sourceTree = "<group>"; };
+		E45C4AAB070F4A2FB9C10EB3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FF5CE28DE2AC4000853D6064 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1874E8E6191F2F970091F9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E8EF191F2F970091F9D9 /* CoreGraphics.framework in Frameworks */,
+				1874E8F1191F2F970091F9D9 /* UIKit.framework in Frameworks */,
+				1874E8ED191F2F970091F9D9 /* Foundation.framework in Frameworks */,
+				4BF2E280C192420EBB0499DC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874E901191F2F970091F9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E906191F2F970091F9D9 /* XCTest.framework in Frameworks */,
+				1874E908191F2F970091F9D9 /* UIKit.framework in Frameworks */,
+				1874E907191F2F970091F9D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1874E8E0191F2F970091F9D9 = {
+			isa = PBXGroup;
+			children = (
+				1874E8F2191F2F970091F9D9 /* eva movie */,
+				1874E90B191F2F970091F9D9 /* eva movieTests */,
+				1874E8EB191F2F970091F9D9 /* Frameworks */,
+				1874E8EA191F2F970091F9D9 /* Products */,
+				E45C4AAB070F4A2FB9C10EB3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		1874E8EA191F2F970091F9D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1874E8E9191F2F970091F9D9 /* eva movie.app */,
+				1874E904191F2F970091F9D9 /* eva movieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1874E8EB191F2F970091F9D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1874E8EC191F2F970091F9D9 /* Foundation.framework */,
+				1874E8EE191F2F970091F9D9 /* CoreGraphics.framework */,
+				1874E8F0191F2F970091F9D9 /* UIKit.framework */,
+				1874E905191F2F970091F9D9 /* XCTest.framework */,
+				FF5CE28DE2AC4000853D6064 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1874E8F2191F2F970091F9D9 /* eva movie */ = {
+			isa = PBXGroup;
+			children = (
+				1874E92A191F35AF0091F9D9 /* images */,
+				1874E8FB191F2F970091F9D9 /* AppDelegate.h */,
+				1874E8FC191F2F970091F9D9 /* AppDelegate.m */,
+				18E28BE619214323002D217A /* PulsingHaloLayer.h */,
+				18E28BE719214323002D217A /* PulsingHaloLayer.m */,
+				1874E91B191F33460091F9D9 /* loadViewController.h */,
+				1874E91C191F33460091F9D9 /* loadViewController.m */,
+				1874E91E191F340D0091F9D9 /* mainViewController.h */,
+				1874E91F191F340D0091F9D9 /* mainViewController.m */,
+				1874E921191F34190091F9D9 /* secondViewController.h */,
+				1874E922191F34190091F9D9 /* secondViewController.m */,
+				1874E924191F34CD0091F9D9 /* thirdViewController.h */,
+				1874E925191F34CD0091F9D9 /* thirdViewController.m */,
+				18E28BD71920BBEC002D217A /* webViewController.h */,
+				18E28BD81920BBEC002D217A /* webViewController.m */,
+				1874E927191F34ED0091F9D9 /* Animator.h */,
+				1874E928191F34ED0091F9D9 /* Animator.m */,
+				1874E8FE191F2F970091F9D9 /* Images.xcassets */,
+				1874E8F3191F2F970091F9D9 /* Supporting Files */,
+			);
+			path = "eva movie";
+			sourceTree = "<group>";
+		};
+		1874E8F3191F2F970091F9D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1874E8F4191F2F970091F9D9 /* eva movie-Info.plist */,
+				1874E8F5191F2F970091F9D9 /* InfoPlist.strings */,
+				1874E8F8191F2F970091F9D9 /* main.m */,
+				1874E8FA191F2F970091F9D9 /* eva movie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1874E90B191F2F970091F9D9 /* eva movieTests */ = {
+			isa = PBXGroup;
+			children = (
+				1874E911191F2F970091F9D9 /* eva_movieTests.m */,
+				1874E90C191F2F970091F9D9 /* Supporting Files */,
+			);
+			path = "eva movieTests";
+			sourceTree = "<group>";
+		};
+		1874E90C191F2F970091F9D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1874E90D191F2F970091F9D9 /* eva movieTests-Info.plist */,
+				1874E90E191F2F970091F9D9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1874E92A191F35AF0091F9D9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18EA792119253F640089834A /* character */,
+				18EA792019253F5F0089834A /* angel */,
+				18EA791F19253F4C0089834A /* poster */,
+				18EA791D19253F3A0089834A /* eva */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		18EA791D19253F3A0089834A /* eva */ = {
+			isa = PBXGroup;
+			children = (
+				18EA7960192739CC0089834A /* Evangelion_Unit_08_Beta_artwork.png */,
+				18EA793919269D240089834A /* Evangelion_Unit_02_(Beast_Mode).png */,
+				18EA7958192739620089834A /* Evangelion_13_Artwork.png */,
+				18EA7959192739620089834A /* Evangelion_Mark.09_(Adams'_Vessel).png */,
+				18EA795A192739620089834A /* Evangelion_Unit-02'β.png */,
+				18EA795B192739620089834A /* Evangelion_Unit-02'γ_Code_777.png */,
+				18EA793A19269D240089834A /* Evangelion_Unit-01_(Pseudo-evolved).png */,
+				18EA793B19269D240089834A /* Evangelion_Unit-02_(Rebuild).png */,
+				18EA7922192541480089834A /* Evangelion_Unit_00'_(Rebuild).png */,
+				18EA791B19253F370089834A /* Eva01RenderLight.png */,
+			);
+			name = eva;
+			sourceTree = "<group>";
+		};
+		18EA791F19253F4C0089834A /* poster */ = {
+			isa = PBXGroup;
+			children = (
+				1874E92B191F35DD0091F9D9 /* bgimage.jpg */,
+				18E28BE2192130E5002D217A /* Kaworu_and_Shinji_Poster.png */,
+				18E28BE3192130E5002D217A /* Rebuild_of_Evangelion_2.0_Poster.png */,
+				1874E92D191F35DD0091F9D9 /* Rebuild_of_Evangelion_1.0_Poster.png */,
+			);
+			name = poster;
+			sourceTree = "<group>";
+		};
+		18EA792019253F5F0089834A /* angel */ = {
+			isa = PBXGroup;
+			children = (
+				18EA7956192738390089834A /* Twelfth_Angel.png */,
+				18EA79481926A3FE0089834A /* ZeruelFirstForm.png */,
+				18EA79461926A3A70089834A /* Evangelion_Unit_03_(Bardiel).png */,
+				18EA79441926A28B0089834A /* Sahaquiel.png */,
+				18EA79421926A19C0089834A /* The_Seventh_Angel.png */,
+				18EA7928192603C20089834A /* The_Sixth_Angel_(Rebuild).png */,
+				18EA794019269FF90089834A /* Third_Angel_(Rebuild).png */,
+				18EA7926192603460089834A /* 5th_Angel_Render.png */,
+				18EA7924192601350089834A /* Sachiel.png */,
+			);
+			name = angel;
+			sourceTree = "<group>";
+		};
+		18EA792119253F640089834A /* character */ = {
+			isa = PBXGroup;
+			children = (
+				18EA7954192737A70089834A /* Mari_(Plugsuit_08).png */,
+				18EA79321926992B0089834A /* Asuka_Shikinami_Langley_Casual.png */,
+				18EA794A192734620089834A /* 'Rei'_(Plugsuit_09).png */,
+				18EA794B192734620089834A /* Asuka_(Plugsuit_02_in_3.0).png */,
+				18EA794C192734620089834A /* Kaworu_Nagisa_(Mark.06_Plugsuit).png */,
+				18EA794D192734620089834A /* Shinji_(Plugsuit_13).png */,
+				18EA79331926992B0089834A /* Kaworu_Nagisa_(Plugsuit).png */,
+				18EA79341926992B0089834A /* Mari_Makinami_Illustrious_Casual.png */,
+				18EA792A192633870089834A /* Misato_Katsuragi.png */,
+				18EA792B192633870089834A /* Rei_Ayanami.png */,
+				18E28BD51920B4C0002D217A /* Shinji_Ikari.png */,
+				18EA79301926916C0089834A /* Gendo_Ikari.png */,
+			);
+			name = character;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1874E8E8191F2F970091F9D9 /* eva movie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874E915191F2F970091F9D9 /* Build configuration list for PBXNativeTarget "eva movie" */;
+			buildPhases = (
+				22C1C4E0C8C94611AD314E5B /* Check Pods Manifest.lock */,
+				1874E8E5191F2F970091F9D9 /* Sources */,
+				1874E8E6191F2F970091F9D9 /* Frameworks */,
+				1874E8E7191F2F970091F9D9 /* Resources */,
+				433ED8A6873F4708B7D5C90E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eva movie";
+			productName = "eva movie";
+			productReference = 1874E8E9191F2F970091F9D9 /* eva movie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1874E903191F2F970091F9D9 /* eva movieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874E918191F2F970091F9D9 /* Build configuration list for PBXNativeTarget "eva movieTests" */;
+			buildPhases = (
+				1874E900191F2F970091F9D9 /* Sources */,
+				1874E901191F2F970091F9D9 /* Frameworks */,
+				1874E902191F2F970091F9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1874E90A191F2F970091F9D9 /* PBXTargetDependency */,
+			);
+			name = "eva movieTests";
+			productName = "eva movieTests";
+			productReference = 1874E904191F2F970091F9D9 /* eva movieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1874E8E1191F2F970091F9D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yongjia Liu";
+				TargetAttributes = {
+					1874E903191F2F970091F9D9 = {
+						TestTargetID = 1874E8E8191F2F970091F9D9;
+					};
+				};
+			};
+			buildConfigurationList = 1874E8E4191F2F970091F9D9 /* Build configuration list for PBXProject "eva movie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1874E8E0191F2F970091F9D9;
+			productRefGroup = 1874E8EA191F2F970091F9D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1874E8E8191F2F970091F9D9 /* eva movie */,
+				1874E903191F2F970091F9D9 /* eva movieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1874E8E7191F2F970091F9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E92E191F35DD0091F9D9 /* bgimage.jpg in Resources */,
+				1874E930191F35DD0091F9D9 /* Rebuild_of_Evangelion_1.0_Poster.png in Resources */,
+				18EA794F192734620089834A /* Asuka_(Plugsuit_02_in_3.0).png in Resources */,
+				18E28BE5192130E5002D217A /* Rebuild_of_Evangelion_2.0_Poster.png in Resources */,
+				18EA7925192601350089834A /* Sachiel.png in Resources */,
+				18EA793F19269D240089834A /* Evangelion_Unit-02_(Rebuild).png in Resources */,
+				18E28BE4192130E5002D217A /* Kaworu_and_Shinji_Poster.png in Resources */,
+				18EA792D192633870089834A /* Rei_Ayanami.png in Resources */,
+				18EA7957192738390089834A /* Twelfth_Angel.png in Resources */,
+				18EA7927192603460089834A /* 5th_Angel_Render.png in Resources */,
+				18EA79351926992B0089834A /* Asuka_Shikinami_Langley_Casual.png in Resources */,
+				18EA79371926992B0089834A /* Mari_Makinami_Illustrious_Casual.png in Resources */,
+				18EA794E192734620089834A /* 'Rei'_(Plugsuit_09).png in Resources */,
+				18EA791C19253F370089834A /* Eva01RenderLight.png in Resources */,
+				18E28BD61920B4C0002D217A /* Shinji_Ikari.png in Resources */,
+				18EA7951192734620089834A /* Shinji_(Plugsuit_13).png in Resources */,
+				1874E8F7191F2F970091F9D9 /* InfoPlist.strings in Resources */,
+				18EA79471926A3A70089834A /* Evangelion_Unit_03_(Bardiel).png in Resources */,
+				18EA79451926A28B0089834A /* Sahaquiel.png in Resources */,
+				18EA792C192633870089834A /* Misato_Katsuragi.png in Resources */,
+				18EA79311926916C0089834A /* Gendo_Ikari.png in Resources */,
+				18EA7923192541480089834A /* Evangelion_Unit_00'_(Rebuild).png in Resources */,
+				18EA793E19269D240089834A /* Evangelion_Unit-01_(Pseudo-evolved).png in Resources */,
+				18EA7929192603C20089834A /* The_Sixth_Angel_(Rebuild).png in Resources */,
+				18EA7961192739CC0089834A /* Evangelion_Unit_08_Beta_artwork.png in Resources */,
+				18EA795C192739620089834A /* Evangelion_13_Artwork.png in Resources */,
+				18EA793D19269D240089834A /* Evangelion_Unit_02_(Beast_Mode).png in Resources */,
+				18EA795F192739620089834A /* Evangelion_Unit-02'γ_Code_777.png in Resources */,
+				18EA79491926A3FE0089834A /* ZeruelFirstForm.png in Resources */,
+				18EA7950192734620089834A /* Kaworu_Nagisa_(Mark.06_Plugsuit).png in Resources */,
+				18EA795D192739620089834A /* Evangelion_Mark.09_(Adams'_Vessel).png in Resources */,
+				18EA7955192737A70089834A /* Mari_(Plugsuit_08).png in Resources */,
+				18EA79361926992B0089834A /* Kaworu_Nagisa_(Plugsuit).png in Resources */,
+				18EA794119269FF90089834A /* Third_Angel_(Rebuild).png in Resources */,
+				18EA79431926A19C0089834A /* The_Seventh_Angel.png in Resources */,
+				18EA795E192739620089834A /* Evangelion_Unit-02'β.png in Resources */,
+				1874E8FF191F2F970091F9D9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874E902191F2F970091F9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E910191F2F970091F9D9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22C1C4E0C8C94611AD314E5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		433ED8A6873F4708B7D5C90E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1874E8E5191F2F970091F9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E91D191F33460091F9D9 /* loadViewController.m in Sources */,
+				1874E929191F34ED0091F9D9 /* Animator.m in Sources */,
+				1874E8FD191F2F970091F9D9 /* AppDelegate.m in Sources */,
+				18E28BE819214323002D217A /* PulsingHaloLayer.m in Sources */,
+				18E28BD91920BBEC002D217A /* webViewController.m in Sources */,
+				1874E926191F34CD0091F9D9 /* thirdViewController.m in Sources */,
+				1874E8F9191F2F970091F9D9 /* main.m in Sources */,
+				1874E920191F340D0091F9D9 /* mainViewController.m in Sources */,
+				1874E923191F34190091F9D9 /* secondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874E900191F2F970091F9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E912191F2F970091F9D9 /* eva_movieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1874E90A191F2F970091F9D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1874E8E8191F2F970091F9D9 /* eva movie */;
+			targetProxy = 1874E909191F2F970091F9D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1874E8F5191F2F970091F9D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1874E8F6191F2F970091F9D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1874E90E191F2F970091F9D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1874E90F191F2F970091F9D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1874E913191F2F970091F9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1874E914191F2F970091F9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1874E916191F2F970091F9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45C4AAB070F4A2FB9C10EB3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eva movie/eva movie-Prefix.pch";
+				INFOPLIST_FILE = "eva movie/eva movie-Info.plist";
+				PRODUCT_NAME = evamovie;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1874E917191F2F970091F9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45C4AAB070F4A2FB9C10EB3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eva movie/eva movie-Prefix.pch";
+				INFOPLIST_FILE = "eva movie/eva movie-Info.plist";
+				PRODUCT_NAME = evamovie;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1874E919191F2F970091F9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eva movie.app/eva movie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eva movie/eva movie-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "eva movieTests/eva movieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1874E91A191F2F970091F9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eva movie.app/eva movie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eva movie/eva movie-Prefix.pch";
+				INFOPLIST_FILE = "eva movieTests/eva movieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1874E8E4191F2F970091F9D9 /* Build configuration list for PBXProject "eva movie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874E913191F2F970091F9D9 /* Debug */,
+				1874E914191F2F970091F9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874E915191F2F970091F9D9 /* Build configuration list for PBXNativeTarget "eva movie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874E916191F2F970091F9D9 /* Debug */,
+				1874E917191F2F970091F9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874E918191F2F970091F9D9 /* Build configuration list for PBXNativeTarget "eva movieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874E919191F2F970091F9D9 /* Debug */,
+				1874E91A191F2F970091F9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1874E8E1191F2F970091F9D9 /* Project object */;
+}
