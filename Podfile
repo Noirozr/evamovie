@@ -1,3 +1,6 @@
-platform :ios, '7.0'
+platform :ios, '9.2'
+use_frameworks!
 
-pod 'pop','~> 1.0'
+target 'eva movie' do
+    pod 'pop'
+end

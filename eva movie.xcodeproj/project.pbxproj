@@ -61,7 +61,7 @@
 		18EA795E192739620089834A /* Evangelion_Unit-02'β.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA795A192739620089834A /* Evangelion_Unit-02'β.png */; };
 		18EA795F192739620089834A /* Evangelion_Unit-02'γ_Code_777.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA795B192739620089834A /* Evangelion_Unit-02'γ_Code_777.png */; };
 		18EA7961192739CC0089834A /* Evangelion_Unit_08_Beta_artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EA7960192739CC0089834A /* Evangelion_Unit_08_Beta_artwork.png */; };
-		4BF2E280C192420EBB0499DC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5CE28DE2AC4000853D6064 /* libPods.a */; };
+		56FD840398568423A90811A3 /* Pods_eva_movie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C20F59A5A4026B0D00103D /* Pods_eva_movie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1609D94F1F692B71D3354FF6 /* Pods-eva movie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eva movie.release.xcconfig"; path = "Pods/Target Support Files/Pods-eva movie/Pods-eva movie.release.xcconfig"; sourceTree = "<group>"; };
 		1874E8E9191F2F970091F9D9 /* eva movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "eva movie.app"; path = evamovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1874E8EC191F2F970091F9D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1874E8EE191F2F970091F9D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,8 +141,8 @@
 		18EA795A192739620089834A /* Evangelion_Unit-02'β.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Unit-02'β.png"; path = "images/Evangelion_Unit-02'β.png"; sourceTree = "<group>"; };
 		18EA795B192739620089834A /* Evangelion_Unit-02'γ_Code_777.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Evangelion_Unit-02'γ_Code_777.png"; path = "images/Evangelion_Unit-02'γ_Code_777.png"; sourceTree = "<group>"; };
 		18EA7960192739CC0089834A /* Evangelion_Unit_08_Beta_artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Evangelion_Unit_08_Beta_artwork.png; path = images/Evangelion_Unit_08_Beta_artwork.png; sourceTree = "<group>"; };
-		E45C4AAB070F4A2FB9C10EB3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		FF5CE28DE2AC4000853D6064 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C20F59A5A4026B0D00103D /* Pods_eva_movie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eva_movie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC8D86A90ADBF7875604981 /* Pods-eva movie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eva movie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eva movie/Pods-eva movie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +153,7 @@
 				1874E8EF191F2F970091F9D9 /* CoreGraphics.framework in Frameworks */,
 				1874E8F1191F2F970091F9D9 /* UIKit.framework in Frameworks */,
 				1874E8ED191F2F970091F9D9 /* Foundation.framework in Frameworks */,
-				4BF2E280C192420EBB0499DC /* libPods.a in Frameworks */,
+				56FD840398568423A90811A3 /* Pods_eva_movie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +177,7 @@
 				1874E90B191F2F970091F9D9 /* eva movieTests */,
 				1874E8EB191F2F970091F9D9 /* Frameworks */,
 				1874E8EA191F2F970091F9D9 /* Products */,
-				E45C4AAB070F4A2FB9C10EB3 /* Pods.xcconfig */,
+				4AD5CF2A529D49429AA373B8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,7 +197,7 @@
 				1874E8EE191F2F970091F9D9 /* CoreGraphics.framework */,
 				1874E8F0191F2F970091F9D9 /* UIKit.framework */,
 				1874E905191F2F970091F9D9 /* XCTest.framework */,
-				FF5CE28DE2AC4000853D6064 /* libPods.a */,
+				89C20F59A5A4026B0D00103D /* Pods_eva_movie.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -330,6 +331,15 @@
 			name = character;
 			sourceTree = "<group>";
 		};
+		4AD5CF2A529D49429AA373B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8D86A90ADBF7875604981 /* Pods-eva movie.debug.xcconfig */,
+				1609D94F1F692B71D3354FF6 /* Pods-eva movie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -337,11 +347,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1874E915191F2F970091F9D9 /* Build configuration list for PBXNativeTarget "eva movie" */;
 			buildPhases = (
-				22C1C4E0C8C94611AD314E5B /* Check Pods Manifest.lock */,
+				D50B1CF42514671C5997A3B9 /* [CP] Check Pods Manifest.lock */,
 				1874E8E5191F2F970091F9D9 /* Sources */,
 				1874E8E6191F2F970091F9D9 /* Frameworks */,
 				1874E8E7191F2F970091F9D9 /* Resources */,
-				433ED8A6873F4708B7D5C90E /* Copy Pods Resources */,
+				020623CA91B8DE638355E397 /* [CP] Embed Pods Frameworks */,
+				3113F1798B2BD2D6E2EB5AA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -458,34 +469,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22C1C4E0C8C94611AD314E5B /* Check Pods Manifest.lock */ = {
+		020623CA91B8DE638355E397 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eva movie/Pods-eva movie-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		433ED8A6873F4708B7D5C90E /* Copy Pods Resources */ = {
+		3113F1798B2BD2D6E2EB5AA8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eva movie/Pods-eva movie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D50B1CF42514671C5997A3B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -619,7 +645,7 @@
 		};
 		1874E916191F2F970091F9D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E45C4AAB070F4A2FB9C10EB3 /* Pods.xcconfig */;
+			baseConfigurationReference = CAC8D86A90ADBF7875604981 /* Pods-eva movie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -633,7 +659,7 @@
 		};
 		1874E917191F2F970091F9D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E45C4AAB070F4A2FB9C10EB3 /* Pods.xcconfig */;
+			baseConfigurationReference = 1609D94F1F692B71D3354FF6 /* Pods-eva movie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
